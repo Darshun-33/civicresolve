@@ -1,0 +1,140 @@
+export type Language = 'en' | 'ta';
+
+export interface Translations {
+  appName: string;
+  tagline: string;
+  nav: {
+    home: string;
+    report: string;
+    track: string;
+    dashboard: string;
+    admin: string;
+    demoMode: string;
+    exitDemo: string;
+  };
+  hero: {
+    headline: string;
+    subheadline: string;
+    reportBtn: string;
+    trackBtn: string;
+    demoBtn: string;
+    statSolved: string;
+    statActive: string;
+    statRate: string;
+    statTotal: string;
+  };
+  features: {
+    title: string;
+    subtitle: string;
+    f1Title: string;
+    f1Desc: string;
+    f2Title: string;
+    f2Desc: string;
+    f3Title: string;
+    f3Desc: string;
+    f4Title: string;
+    f4Desc: string;
+  };
+  howItWorks: {
+    title: string;
+    subtitle: string;
+    s1Title: string;
+    s1Desc: string;
+    s2Title: string;
+    s2Desc: string;
+    s3Title: string;
+    s3Desc: string;
+    s4Title: string;
+    s4Desc: string;
+  };
+  report: {
+    title: string;
+    subtitle: string;
+    fieldTitle: string;
+    fieldTitlePlaceholder: string;
+    fieldDesc: string;
+    fieldDescPlaceholder: string;
+    fieldLocation: string;
+    fieldLocationPlaceholder: string;
+    fieldCategory: string;
+    autoDetect: string;
+    fieldImage: string;
+    imageHelp: string;
+    submitBtn: string;
+    submitting: string;
+    analyzingAI: string;
+    duplicateAlertTitle: string;
+    duplicateAlertDesc: string;
+    supportBtn: string;
+    continueFiling: string;
+    successTitle: string;
+    successDesc: string;
+    trackComplaintBtn: string;
+    reportAnotherBtn: string;
+  };
+  track: {
+    title: string;
+    subtitle: string;
+    searchPlaceholder: string;
+    searchBtn: string;
+    notFoundTitle: string;
+    notFoundDesc: string;
+    timelineTitle: string;
+    citizenVerificationTitle: string;
+    citizenVerificationDesc: string;
+    btnYesResolved: string;
+    btnNoDisputed: string;
+    verifiedBadge: string;
+    disputedBadge: string;
+    disputeFeedbackPlaceholder: string;
+    submitFeedback: string;
+  };
+  dashboard: {
+    title: string;
+    subtitle: string;
+    totalReported: string;
+    inProgress: string;
+    resolved: string;
+    highCritical: string;
+    searchFilter: string;
+    allCategories: string;
+    allStatuses: string;
+    noComplaints: string;
+    noComplaintsDesc: string;
+    reportFirst: string;
+  };
+  admin: {
+    title: string;
+    demoNotice: string;
+    pendingReview: string;
+    disputedSection: string;
+    disputedCount: string;
+    updateStatus: string;
+    addNote: string;
+    notePlaceholder: string;
+    saveUpdate: string;
+    analyticsTab: string;
+    complaintsTab: string;
+    mapTab: string;
+    corroboration: string;
+  };
+  common: {
+    id: string;
+    category: string;
+    priority: string;
+    department: string;
+    status: string;
+    location: string;
+    date: string;
+    actions: string;
+    viewDetails: string;
+    close: string;
+    confidence: string;
+    source: string;
+    loadDemo: string;
+    clearDemo: string;
+    demoLoaded: string;
+    demoCleared: string;
+  };
+}
+
